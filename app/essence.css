@@ -155,3 +155,79 @@
   .essence-value:hover, .essence-value:active, .essence-value:hover .essence-value-icon,
   .essence-editorial-cta:hover .essence-arrow, .essence-editorial-cta:hover svg { transform: none; translate: none; }
 }
+
+/* Mobile: the complete editorial copy precedes the portrait. */
+@media (max-width: 700px) {
+  .essence-stage {
+    height: auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .essence-editorial-top {
+    position: relative;
+    z-index: 4;
+    flex: none;
+  }
+
+  .essence-editorial-copy {
+    position: relative;
+    z-index: 4;
+    flex: none;
+    width: 88%;
+    margin-left: 6%;
+    padding: 29px 0 0;
+  }
+
+  .essence-editorial-prelude {
+    max-width: 100%;
+  }
+
+  .essence-editorial-description {
+    width: 100%;
+    max-width: 350px;
+    margin-top: 22px;
+    padding: 0;
+    background: transparent;
+    border-radius: 0;
+  }
+
+  .essence-editorial-cta {
+    max-width: 100%;
+    margin-top: 22px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .essence-smile {
+    position: relative;
+    z-index: 2;
+    flex: none;
+    width: 112%;
+    right: auto;
+    top: auto;
+    aspect-ratio: 1284 / 1780;
+    margin: clamp(29px, 8vw, 36px) -12% 0 5%;
+    border-radius: 48% 0 0 42%;
+  }
+
+  .essence-margin-note {
+    position: relative;
+    inset: auto;
+    z-index: 4;
+    width: 88%;
+    margin: 15px 6% 18px;
+  }
+
+  .essence-thread-mobile {
+    height: 64%;
+    top: 36%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+  .essence-editorial-description { max-width: 440px; }
+  .essence-editorial-cta { max-width: 78%; }
+}

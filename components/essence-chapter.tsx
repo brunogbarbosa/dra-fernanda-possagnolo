@@ -78,9 +78,6 @@ export function EssenceChapter() {
         <path d="M-30 625 C110 638 170 799 410 793" pathLength="1" data-essence-motion="line"/>
         <circle cx="82" cy="669" r="5.5" fill={`url(#${uid}-pearl-mobile)`} data-essence-motion="bead" data-delay="600"/>
       </svg>
-      <figure className="essence-smile" data-essence-motion="photo">
-        <Image src={site.images.essence} alt="Retrato editorial da Dra. Fernanda Possagnolo em fundo vinho." fill sizes="(max-width:700px) 180vw, (max-width:1100px) 82vw, 67vw"/>
-      </figure>
       <div className="essence-editorial-top">
         <p>01 / A ESSÊNCIA</p><span aria-hidden="true"/><p>A BELEZA COMEÇA<br/>NO QUE É SEU.</p>
       </div>
@@ -94,6 +91,9 @@ export function EssenceChapter() {
         <p className="essence-editorial-description" data-essence-motion="fade" data-delay="350">Harmonizar é olhar o rosto inteiro: seus traços, sua expressão e tudo o que torna você única.</p>
         <a className="essence-editorial-cta" href="#sobre" data-essence-motion="fade" data-delay="450"><span>Conheça o olhar por trás do cuidado</span><span className="essence-arrow"><ArrowUpRight size={24} strokeWidth={1.3}/></span></a>
       </div>
+      <figure className="essence-smile" data-essence-motion="photo">
+        <Image src={site.images.essence} alt="Retrato editorial da Dra. Fernanda Possagnolo em fundo vinho." fill sizes="(max-width:700px) 112vw, (max-width:1100px) 82vw, 67vw"/>
+      </figure>
       <p className="essence-margin-note">TRAÇOS REAIS<br/>HISTÓRIAS ÚNICAS<span aria-hidden="true"/></p>
     </div>
     <div className="essence-values">

@@ -88,9 +88,6 @@ export function ExperienceStatement() {
         sizes="(max-width: 700px) 94vw, (max-width: 1100px) 50vw, 45vw"
       />
       <span className={styles.photoWash} aria-hidden="true" />
-      <svg className={styles.photoArc} viewBox="0 0 720 740" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-        <path d="M 735 -18 C 526 49 414 177 371 359 C 345 470 349 594 371 758" pathLength="1" vectorEffect="non-scaling-stroke" data-experience-motion="line" />
-      </svg>
       <p className={styles.photoCopy} data-experience-motion="photo-copy">TRAÇOS<br />QUE REVELAM<br />O SEU MELHOR.<span aria-hidden="true" /></p>
       <ImageSeal id={uid} />
     </figure>
