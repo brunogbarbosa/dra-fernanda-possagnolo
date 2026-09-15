@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="15" fill="#5a0c1d"/>
+  <path d="M11 40c8-13 19-19 30-17 7 1 12 6 15 14-8-4-16-5-24-3-8 2-14 5-21 6Z" fill="none" stroke="#d9b38b" stroke-width="1.7" stroke-linecap="round"/>
+  <text x="32" y="43" text-anchor="middle" fill="#f7f0e8" font-family="Georgia,serif" font-size="23">fp.</text>
+</svg>
